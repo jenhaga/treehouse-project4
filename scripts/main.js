@@ -1,17 +1,13 @@
 
-$(document).ready(function() {
-  $('#search').hideseek();
-  });
-
-
-$('#search').hideseek ({
-  list: '.title'
+$('#search').hideseek({
+      list:           '.hideseek-data',
+      nodata:         '',
+      attribute:      'text',
+      highlight:      false,
+      ignore:         '',
+      navigation:     false,
+      ignore_accents: false
 });
-
-
-$(document).ready(function() {
-  $('.slide').magnificPopup({type:'image'});
-  });
 
 
 $('#gallery').magnificPopup({
