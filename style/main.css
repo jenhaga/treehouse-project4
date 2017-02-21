@@ -58,6 +58,10 @@
   text-align: center;
 }
 
+.mfp-bottom-bar {
+  border-style: 2px, solid, red;
+}
+
 .mfp-title {
   display: inline-block;
   max-width: 100%;

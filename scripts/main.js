@@ -1,12 +1,6 @@
 
 $('#search').hideseek({
-      list:           '.hideseek-data',
-      nodata:         '',
-      attribute:      'text',
-      highlight:      false,
-      ignore:         '',
-      navigation:     false,
-      ignore_accents: false
+      attribute: 'title'
 });
 
 
