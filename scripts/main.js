@@ -14,3 +14,7 @@ $('#gallery').magnificPopup({
   tNext: 'Next (Right arrow key)',
   tCounter: '<span class="mfp-counter">%curr% of %total%</span>'
   });
+
+function captions() {
+  document.getElementByClassName("mfp-title").innerHTML = "title";
+}
